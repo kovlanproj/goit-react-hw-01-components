@@ -22,7 +22,6 @@ export const Title = styled.h2`
 export const DataList = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
   padding: 0;
   margin: 0;
 `;

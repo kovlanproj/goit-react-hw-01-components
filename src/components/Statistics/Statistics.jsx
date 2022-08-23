@@ -15,7 +15,7 @@ export const Statistics = ({ data, title }) => {
       {title && <Title>{title}</Title>}
 
       <DataList>
-        {data.map(({ id, label, percentage, color }) => (
+        {data.map(({ id, label, percentage }) => (
           <DataItem bgcolor={rendomColor()} key={id}>
             <Label>{label}</Label>
             <Percentage>{percentage}%</Percentage>
